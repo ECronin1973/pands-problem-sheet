@@ -15,7 +15,7 @@ dt = datetime.now()  #Create datetime object
 
 today = dt.isoweekday()
 # isoweekday() method is used to get the day of the week as an integer, 
-# where Monday is 1 and Sunday is 7.
+# where Monday is 0 and Sunday is 6.
 
 if today < 5: # 0 - 4 weekdays
     print(f"Yes, unfortunately today is a weekday")
