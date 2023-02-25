@@ -8,7 +8,7 @@ while True:
     user_input = str(input("Please enter an 10 digit account number: "))   
  
     if len(user_input) != 10:                                       #this sets length of input to 10 characters
-        print('Account number must be 10 charachers in length')     #'this gives a message if length of input does not meet criteria set down'
+        print('Account number must be 10 characters in length')     #'this gives a message if length of input does not meet criteria set down'
         continue
     else:
         display = user_input[6:]                                    #display variable is used to give output of last four digits entered
